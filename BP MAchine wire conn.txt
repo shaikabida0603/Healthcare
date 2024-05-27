@@ -1,0 +1,25 @@
+1. Bp Machine Side wires.
+
+i. yellow wire ---> to ---> arduino --5 port insert
+
+ii. red wire ---> to ---> arduino -- A5 port insert
+
+iii. orange wire ---> to ---> aurdino -- A4 port insert
+
+iv. Dark Blue Wire ---> to  ---> aurdino -- Black wire insert
+-------------------------------------------------------------------
+2. Node MCU .
+
+i. Take orange Wire ---> insert in ---> Node MCU TX ---> other side ---> insert in ---> Arduino -- 0->RX port
+
+ii. Take yellow Wire ---> insert in ---> Node MCU RX ---> other side ---> insert in ---> Arduino -- 1->TX port
+
+iii. Take Green Wire ---> insert in ---> G pin near VIN pin ---> other side ---> insert in ---> arduino -- GND port near GND port.
+
+------------------------------------------------------------------
+3. Take Beep coil--small one device.
+
+i. Take white wire ---> insert in ---> Beep device -- small pin ---> other side ---> insert in ---> Node MCU ---> insert in --> G pin near D5 pin.
+
+ii. Take black wire ---> insert in ---> Beep Device -- Big pin ---> other side --->
+insert in ---> Node MCU --->insert in ---> D5 pin 
